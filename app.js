@@ -31,7 +31,7 @@ class Casino {
   }
 }
 // TESTS
-const myCasino = new Casino("HackerU Casino");
+const myCasino = new Casino("HackerU Casino", false);
 console.log(myCasino);
 myCasino.playGame(5);
 myCasino.playGame(15);
